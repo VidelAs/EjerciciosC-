@@ -3,43 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio2
+namespace Calculadora
 {
-    class Practica2
+    class ejercicioCal
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ejercicio 2");
-            int a= 5;
-            int b= 30;
-            int c=4;
-            
-            int suma= a+b+c;
-            Console.WriteLine("La suma tiene el resultado" + suma);
-            //Fin de la suma 
-            
-            Console.WriteLine("Ingresa tu nombre");
-            String nombre= Console.ReadLine();
-            
-            Console.WriteLine("Ingresa una provicia");
-            String provincia= Console.ReadLine();
-            
-            Console.WriteLine("Hola" + nombre);
-            Console.WriteLine("Bienvenido" + provincia);
-            Console.ReadLine();
-            //Ingresar datos por consola
-            
-            Console.WriteLine("Escribe tu nombre");
-            String nombre1 =Console.ReadLine();
-            
-            Console.WriteLine("Escribe tu edad");
-            String edad=Console.ReadLine();
-            
-            int edad1= Convert.ToInt32(edad);
-            Console.WriteLine("Tu nombre es:" + nombre1 + "tu edad es:"+ edad1);
-            Console.WriteLine();
-            
-            
-        }//main
-    }//Class final
-}//El final
+          int opcion;
+          int a;
+          int b;
+          Console.WriteLine("Calculadora") ;
+          Console.WriteLine("Ingrese una opcion:");
+          Console.WriteLine("1. Sumar");
+          Console.WriteLine("2. Dividir");
+          Console.WriteLine("3. Restarr");
+          Console.WriteLine("4. Multiplicar");
+          Console.ReadLine(opcion);
+          switch(opcion){
+          case 1:
+            Console.WriteLine("Ingrese el primero digito");
+            int a= Console.ReadLine();
+            Console.WriteLine("Ingrese el segundo digito");
+            int b =Console.ReadLine();
+            int suma;
+            suma= a+b
+            suma= Console.Readline(suma);
+            break;
+          }
+          }
+            Console.ReadLine();//Necesario
+    }
+    }
