@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Ejercicio2
+{
+    class Practica2
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Ejercicio 2");
+            int a= 5;
+            int b= 30;
+            int c=4;
+            
+            int suma= a+b+c;
+            Console.WriteLine("La suma tiene el resultado" + suma);
+            //Fin de la suma 
+            
+            Console.WriteLine("Ingresa tu nombre");
+            String nombre= Console.ReadLine();
+            
+            Console.WriteLine("Ingresa una provicia");
+            String provincia= Console.ReadLine();
+            
+            Console.WriteLine("Hola" + nombre);
+            Console.WriteLine("Bienvenido" + provincia);
+            Console.ReadLine();
+            //Ingresar datos por consola
+            
+            Console.WriteLine("Escribe tu nombre");
+            String nombre1 =Console.ReadLine();
+            
+            Console.WriteLine("Escribe tu edad");
+            String edad=Console.ReadLine();
+            
+            int edad1= Convert.ToInt32(edad);
+            Console.WriteLine("Tu nombre es:" + nombre1 + "tu edad es:"+ edad1);
+            
+            
+            
+        }//main
+    }//Class final
+}//El final
