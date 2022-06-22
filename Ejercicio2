@@ -37,7 +37,7 @@ namespace Ejercicio2
             
             int edad1= Convert.ToInt32(edad);
             Console.WriteLine("Tu nombre es:" + nombre1 + "tu edad es:"+ edad1);
-            
+            Console.WriteLine();
             
             
         }//main
