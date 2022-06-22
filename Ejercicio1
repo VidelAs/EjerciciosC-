@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Ejercicio1
+{
+    class Practica1
+    {
+        static void Main(string[] args)
+        {
+            int a;
+            int b;
+            int c;
+            Console.WriteLine("Ejercicio1");
+            Console.WriteLine("Ingrese el primer digito");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese el segundo digito");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese el tercer digito");
+            c = Convert.ToInt32(Console.ReadLine());
+
+            if (a < b)
+            {
+                if (b < c)
+                {
+                    Console.WriteLine("{0} es mayor", c);
+                }
+                else
+                Console.WriteLine("{0} es mayor", b);
+            }
+            else if (a > b)
+            {
+                if (a < c)
+                {
+                    Console.WriteLine("{0} es mayor", c);
+                }
+                else
+                Console.WriteLine("{0} es mayor", a);
+            }
+            Console.ReadKey();
+        }
+    }
+}
