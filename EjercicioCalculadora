@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Calculadora
+{
+    class ejercicioCal
+    {
+        static void Main(string[] args)
+        {
+          int opcion;
+          int a;
+          int b;
+          Console.WriteLine("Calculadora") ;
+          Console.WriteLine("Ingrese una opcion:");
+          Console.WriteLine("1. Sumar");
+          Console.WriteLine("2. Dividir");
+          Console.WriteLine("3. Restarr");
+          Console.WriteLine("4. Multiplicar");
+          Console.ReadLine(opcion);
+          switch(opcion){
+          case 1:
+            Console.WriteLine("Ingrese el primero digito");
+            Console.ReadLine(a);
+            Console.WriteLine("Ingrese el segundo digito");
+            Console.ReadLine(b);
+            int suma;
+            suma= a+b
+            Console.Readline(suma);
+            break;
+          }
+          }
+            Console.ReadLine();//Necesario
+        }//main
+    }//Class final
+}//El final
