@@ -18,19 +18,19 @@ namespace Calculadora
           Console.WriteLine("2. Dividir");
           Console.WriteLine("3. Restarr");
           Console.WriteLine("4. Multiplicar");
-          Console.ReadLine(opcion);
+          opcion = int.Parse(Console.ReadLine());
           switch(opcion){
-          case 1:
-            Console.WriteLine("Ingrese el primero digito");
-            Console.ReadLine(a);
-            Console.WriteLine("Ingrese el segundo digito");
-            Console.ReadLine(b);
-            int suma;
-            suma= a+b
-            Console.Readline(suma);
-            break;
-          }
-          }
+                    case 1:
+                            Console.WriteLine("Ingrese el primero digito");
+                            a = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Ingrese el segundo digito");
+                            b = int.Parse(Console.ReadLine());
+                            int suma;
+                            suma= a+b;
+                            Console.WriteLine(suma);
+                            break;
+                        }
+         
             Console.ReadLine();//Necesario
         }//main
     }//Class final
