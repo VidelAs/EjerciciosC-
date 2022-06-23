@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Calculadora
+{
+    class ejercicioCal
+    {
+        static void Main(string[] args)
+        {
+           double cantidad1;
+           double cantidad2;
+           string operacion;
+           double resultado;
+           char opcion;
+           string continuar;
+           do {
+               Console.WriteLine("Desea continuar? y/n");
+               continuar=Console.ReadLine();
+           }
+           while(continuar != "n");
+        }
+        //Console.ReadLine();//Necesario
+    }
+}
