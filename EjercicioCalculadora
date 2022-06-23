@@ -16,8 +16,8 @@ namespace Calculadora
           Console.WriteLine("Ingrese una opcion:");
           Console.WriteLine("1. Sumar");
           Console.WriteLine("2. Dividir");
-          Console.WriteLine("3. Restarr");
-          Console.WriteLine("4. Multiplicar");
+          Console.WriteLine("3. Multiplicar");
+          Console.WriteLine("4. Restar");
           opcion = int.Parse(Console.ReadLine());
           switch(opcion){
                     case 1:
@@ -27,7 +27,34 @@ namespace Calculadora
                             b = int.Parse(Console.ReadLine());
                             int suma;
                             suma= a+b;
-                            Console.WriteLine(suma);
+                            Console.WriteLine("El resultado de la suma es: "+ suma);
+                            break;
+                    case 2: 
+                            Console.WriteLine("Ingrese el primero digito");
+                            a = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Ingrese el segundo digito");
+                            b = int.Parse(Console.ReadLine());
+                            int dividir;
+                            dividir= a/b;
+                            Console.WriteLine("El resultado de la division es: "+dividir);
+                            break;
+                    case 3: 
+                            Console.WriteLine("Ingrese el primero digito");
+                            a = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Ingrese el segundo digito");
+                            b = int.Parse(Console.ReadLine());
+                            int multiplicar;
+                            multiplicar= a*b;
+                            Console.WriteLine("El resultado de la multiplicacion es: "+multiplicar);
+                            break;
+                    case 4:
+                            Console.WriteLine("Ingrese el primero digito");
+                            a = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Ingrese el segundo digito");
+                            b = int.Parse(Console.ReadLine());
+                            int resta;
+                            resta= a-b;
+                            Console.WriteLine("El resultado de la resta es : "+resta);
                             break;
                         }
          
