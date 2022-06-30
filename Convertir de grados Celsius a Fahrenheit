@@ -1,0 +1,11 @@
+class Program{
+  static void Main (string[] args){
+    Console.WriteLine("Ingresa grados centrigrados");
+    double c= Convert.ToDouble(Console.WriteLine());
+    double f= (c*9/5)+(32);
+    Console.WriteLine( c + "C equivale a" +f +"F");
+    Console.ReadKey();
+  }
+
+}
+}
